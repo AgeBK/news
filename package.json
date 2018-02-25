@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "name": "news",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "lite-server"
+  }
+}
