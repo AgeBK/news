@@ -12,10 +12,9 @@ body {
 }
 a {
   text-decoration: underline;
-  font-weight: bold;
 }
 a:hover {
-  color: #bada55;
+  text-decoration: none;
 }
 .cont {
   border: 1px solid #6a737d;
