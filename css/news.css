@@ -11,10 +11,11 @@ body {
   display: inline-block;
 }
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: bold;
 }
 a:hover {
-  text-decoration: underline;
+  color: #bada55;
 }
 .cont {
   border: 1px solid #6a737d;
