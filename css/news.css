@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.arrowRight {
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #ab3e40;
+  display: inline-block;
+}
+a {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+.cont {
+  border: 1px solid #6a737d;
+  padding: 10px 14px;
+  max-width: 605px;
+  margin: 0 auto;
+}
+.contInner {
+  border-top: 2px solid #bbb;
+  padding-top: 2px;
+}
+.cont ul,
+.cont ol {
+  padding: 0;
+  margin: 0;
+}
+.cont ul {
+  list-style-type: none;
+  font-size: 11px;
+}
+.hdr {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 0 5px 4px;
+}
+.latest {
+  padding: 3px 0 3px 10px;
+  margin-bottom: 3px;
+  background-color: #224c7d;
+  color: #fff;
+  font-size: 14px;
+}
+.items {
+  border: 1px solid #bbb;
+  padding: 4px 4px 20px 4px;
+}
+.itemsInner {
+  vertical-align: top;
+}
+.itemsInner > div {
+  padding: 4px 0;
+}
+.break .hdr {
+  color: #ab3e40;
+}
+.sport .hdr {
+  color: #58a763;
+}
+.sport ol {
+  padding-left: 2px;
+  font-weight: bold;
+  color: #ccc;
+  list-style-position: inside;
+  font-size: 14px;
+}
+.sport ol a {
+  font-weight: normal;
+  color: #6a737d;
+  font-size: 12px;
+}
+.list .item {
+  padding: 5px;
+}
+.sport .list .item {
+  padding: 3px;
+}
+.list .item.odd {
+  background-color: #e5e5e5;
+}
+.list .time {
+  color: #a8a8a6;
+  border-right: 1px solid #bbb;
+  padding-right: 5px;
+}
+.list a {
+  color: #66a2ca;
+  padding-left: 2px;
+}
+
+@media only screen and (min-width: 605px) {
+  .itemsInner {
+    width: 47%;
+    display: inline-block;
+  }
+  .itemsInner.break {
+    margin-right: 4%;
+  }
+}
