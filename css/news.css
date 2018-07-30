@@ -82,7 +82,7 @@ a:hover {
   padding: 3px;
 }
 .list .item.odd {
-  background-color: red;
+  background-color: #bada55;
 }
 .list .time {
   color: #a8a8a6;
