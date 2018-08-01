@@ -5,6 +5,10 @@ body {
 h1 {
   font-size: 3rem;
 }
+h2,
+h3 {
+  color: red;
+}
 .arrowRight {
   width: 0;
   height: 0;
